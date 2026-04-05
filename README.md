@@ -140,5 +140,6 @@ LISTEN        0              128                     127.0.0.53%lo:53           
 LISTEN        0              128                           0.0.0.0:22                           0.0.0.0:*             users:(("sshd",pid=959,fd=3))
 LISTEN        0              128                              [::]:8000                            [::]:*             users:(("docker-proxy",pid=6037,fd=4))
 LISTEN        0              128                              [::]:22                              [::]:*             users:(("sshd",pid=959,fd=4))
-root@fv4873f9frfmhv0or8i4:~# curl localhost:5000
+root@fv4873f9frfmhv0or8i4:~#  curl localhost:8000
+Hello from Compose Watch!! I have been seen 1 time(s).
 ```
